@@ -1,14 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-:root.theme_light {
-  --accent-color: #FF8DCB;
-  --title-color: #FFC2E6;
-  --text-color: #353430;
-  --border-color:  #000028;
-}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
@@ -19,13 +8,8 @@
   --title-color: #FFC2E6;
   --text-color: #353430;
   --border-color:  #000028;
-  
-  background-image: url(../images/cover-image-light.png);
-}
-
-
-.theme_light .rec__text {
-  display: none;
+  --background-image: url(../images/cover-image-light.png);
+  --rec-display: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -39,9 +23,4 @@
   .page {
     background-image: url(../images/cover-image-light.png);
   }
-
-  .rec__text {
-    display: none;
-  }
-
 }
