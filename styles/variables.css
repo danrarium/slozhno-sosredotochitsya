@@ -11,5 +11,6 @@
   --title-color: #db00ff;
   --text-color: #f1b2ce;
   --background-image: url(../images/cover-image-dark.png);
-  --rec-display: none;
+  --rec-display: inline;
+  --background-colour: #000028;
 }

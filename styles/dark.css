@@ -9,22 +9,9 @@
   --accent-text-color: #000028;
   --title-color: #db00ff;
   --text-color: #f1b2ce;
-  background-image: url(../images/cover-image-dark.png);
+  --background-image: url(../images/cover-image-dark.png);
   --rec-display: inline;
+  --background-colour: #000028;
 }
 
 
-
-@media (prefers-color-scheme: dark) {
-  .page {
-    background-image: url(../images/cover-image-dark.png);
-  }
-
-  .theme_auto .rec__text {
-    display: var(--rec-display, inline);
-  }
-
-  .theme_auto .rec__text::after {
-    display: var(--rec-display, inline);
-  }
-}

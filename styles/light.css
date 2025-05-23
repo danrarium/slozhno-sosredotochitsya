@@ -7,9 +7,10 @@
   --accent-color: #FF8DCB;
   --title-color: #FFC2E6;
   --text-color: #353430;
-  --border-color:  #000028;
+  --border-color:  #353430;
   --background-image: url(../images/cover-image-light.png);
   --rec-display: none;
+  --background-colour: #fff1f7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,10 +18,16 @@
     --accent-color: #FF8DCB;
     --title-color: #FFC2E6;
     --text-color: #353430;  
-    --border-color:  #000028;
+    --border-color:  #353430;
+    --background-colour: #fff1f7;
     }
 
-  .page {
-    background-image: url(../images/cover-image-light.png);
+  
+    .page.theme_auto {
+    --rec-display: none;
+    --background-image: url(../images/cover-image-light.png);
   }
+
+    
+
 }
