@@ -10,7 +10,8 @@
   --border-color:  #353430;
   --background-image: url(../images/cover-image-light.png);
   --rec-display: none;
-  --background-colour: #fff1f7;
+  --background-color: #fff1f7;
+  --border-color-transparent: rgba(53, 52, 48, 0.5);
 }
 
 @media (prefers-color-scheme: light) {
@@ -19,13 +20,14 @@
     --title-color: #FFC2E6;
     --text-color: #353430;  
     --border-color:  #353430;
-    --background-colour: #fff1f7;
+    --border-color-transparent: rgba(53, 52, 48, 0.5);
     }
 
   
-    .page.theme_auto {
+    .page {
     --rec-display: none;
     --background-image: url(../images/cover-image-light.png);
+    --background-color: #fff1f7;
   }
 
     
